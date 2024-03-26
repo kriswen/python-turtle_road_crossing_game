@@ -2,6 +2,8 @@
 
 This is a classic arcade-style game implemented using Python's Turtle graphics library. In this game, the player controls a turtle that needs to cross a busy road while avoiding oncoming traffic.
 
+![Game Screenshot](output.png "Turtle Crossing Game")
+
 ## Gameplay
 
 - Use the **Up Arrow** key to move the turtle upwards and cross the road.
