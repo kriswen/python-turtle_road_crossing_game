@@ -32,5 +32,5 @@ class Scoreboard(Turtle):
             self.goto(x_axis, 270)
             self.write(arg="_", move=False, align="Center", font=FONT)
         for x_axis in range(300, -300, -20):
-            self.goto(x_axis, -250)
+            self.goto(x_axis, -260)
             self.write(arg="_", move=False, align="Center", font=FONT)
