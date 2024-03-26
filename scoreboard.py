@@ -11,13 +11,12 @@ class Scoreboard(Turtle):
         self.penup()
         self.color("black")
         self.hideturtle()
-        self.goto(-230, 270)
         self.display_score()
 
     def display_score(self):
         self.clear()
         self.goto(-230, 270)
-        self.write(arg=f"Level: {self.level}", move=False, align="Center", font=FONT)
+        self.write(arg=f"Level: {self.level}", align="Center", font=FONT)
         self.display_crossing_line()
 
     def level_up(self):
@@ -31,6 +30,5 @@ class Scoreboard(Turtle):
         for x_axis in range(300, -300, -20):
             self.goto(x_axis, 270)
             self.write(arg="_", move=False, align="Center", font=FONT)
-        for x_axis in range(300, -300, -20):
             self.goto(x_axis, -260)
             self.write(arg="_", move=False, align="Center", font=FONT)
